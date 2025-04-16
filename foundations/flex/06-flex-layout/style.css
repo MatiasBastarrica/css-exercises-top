@@ -66,3 +66,17 @@ ul {
   display: flex;
   justify-content: center;
 }
+
+.input {
+  margin-bottom: 16px;
+}
+
+.buttons button {
+  padding: 8px 16px;
+  margin: 0 5px;
+}
+
+a,
+button {
+  font-weight: 500;
+}
