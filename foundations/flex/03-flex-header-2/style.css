@@ -23,8 +23,14 @@ body {
   display: flex;
 }
 
+.container,
 .links {
   gap: 16px;
+}
+
+ul.links {
+  padding: 0;
+  margin: 0;
 }
 
 .profile-image {
