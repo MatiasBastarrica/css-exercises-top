@@ -28,3 +28,14 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+li a {
+  text-decoration: none;
+  color: grey;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
