@@ -37,6 +37,8 @@ img {
 
 .plants-container {
   gap: 52px;
+  width: 100%;
+  justify-content: center;
 }
 
 .plant-section,
