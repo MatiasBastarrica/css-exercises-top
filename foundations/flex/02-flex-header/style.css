@@ -26,3 +26,9 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
+
+.left-links ul,
+.right-links ul {
+  display: flex;
+  gap: 16px;
+}
