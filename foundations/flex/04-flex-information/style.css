@@ -26,11 +26,21 @@ img {
 }
 
 .plant-section,
-.plants-container {
+.plants-container,
+.plant {
   display: flex;
 }
 
 .plant-section {
+  gap: 32px;
+}
+
+.plants-container {
+  gap: 52px;
+}
+
+.plant-section,
+.plant {
   flex-direction: column;
   align-items: center;
 }
