@@ -29,4 +29,21 @@ ul.dropdown-menu li:hover {
   display: block;
 }
 
+/* ### SOLUTION ### */
 
+.dropdown-menu {
+  animation: dropdown 1s ease-in-out;
+  transform-origin: top;
+}
+
+@keyframes dropdown {
+  0% {
+    transform: scaleY(0.4);
+  }
+  95% {
+    transform: scaleY(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
